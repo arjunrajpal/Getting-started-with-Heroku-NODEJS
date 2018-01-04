@@ -1,0 +1,22 @@
+{
+  "name": "sample-web-app",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunrajpal/Getting-started-with-Heroku-NODEJS.git"
+  },
+  "author": "Arjun Rajpal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunrajpal/Getting-started-with-Heroku-NODEJS/issues"
+  },
+  "homepage": "https://github.com/arjunrajpal/Getting-started-with-Heroku-NODEJS#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
