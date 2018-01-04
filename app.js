@@ -11,6 +11,11 @@ app.get('/',function(req,res){
 	res.send("Heroku working !");
 });
 
+app.get('/test', function(req,res){
+
+	res.send("It is working !");
+});
+
 app.listen(app.get('port'));
 
 console.log('Server running !');
